@@ -1,0 +1,23 @@
+Package: m6APrediction
+Type: Package
+Title: Machine Learning-Based Prediction of N6-Methyladenosine (m6A) RNA Modification Sites.
+Version: 1.0.0
+Authors@R: c(
+    person(
+      "Hanqi", "Wang",
+      email = "Hanqi.Wang23@student.xjtlu.edu.cn",
+      role = c("aut", "cre")
+    )
+  )
+Description: Provides functions for predicting N6-methyladenosine (m6A) RNA 
+  modification sites using a machine learning classifier. The package encodes 
+  5-mer DNA sequences into positional nucleotide factors and integrates multiple 
+  transcript-related features such as GC content, exon length, and RNA region. 
+  It supports both batch and single-sample prediction modes, and includes 
+  example datasets and pre-trained models for demonstration.
+Imports: randomForest, stats
+Depends: R (>= 3.5.0)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
