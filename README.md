@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # **Package Overview**
 
 m6APrediction — An R package for computational prediction of RNA
@@ -117,3 +111,4 @@ generated in Practical 4 are displayed below.
 # License
 
 This package is distributed under the MIT License.
+
