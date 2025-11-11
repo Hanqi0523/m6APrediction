@@ -104,11 +104,12 @@ prediction_single(ml_fit,
 To showcase the model’s predictive performance, ROC and PRC curves
 generated in Practical 4 are displayed below.
 
-![](ROC.png){width="25cm"}
+![](ROC.png)
 
-![](PRC.png){width="25cm"}
+![](PRC.png)
 
 # License
 
 This package is distributed under the MIT License.
+
 
