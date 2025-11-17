@@ -81,7 +81,20 @@ prediction_single(ml_fit,
 
 # Model Performance
 
-To showcase the model’s predictive performance, ROC and PRC curves generated in Practical 4 are displayed below.
+The Random Forest classifier embedded in m6APrediction was trained on experimentally validated m6A sites using balanced positive/negative sampling and 5-mer sequence–derived features.
+
+To evaluate predictive performance, receiver operating characteristic (ROC) and precision–recall (PRC) curves were generated using an independent test set.
+The model achieved:
+
+| Curve Type |  AUC  |
+|:----------:|:-----:|
+| ROC        | 0.886 |
+| PRC        | 0.701 |
+
+The ROC AUC of 0.886 indicates strong overall discriminative power between methylated and non-methylated sites.
+Given the class imbalance inherent to m6A datasets, the PRC AUC (0.701) further demonstrates that the classifier maintains meaningful precision across recall levels rather than relying on majority-class bias.
+
+The corresponding performance curves are shown below:
 
 ![](ROC.png)
 
@@ -90,6 +103,7 @@ To showcase the model’s predictive performance, ROC and PRC curves generated i
 # License
 
 This package is distributed under the MIT License.
+
 
 
 
